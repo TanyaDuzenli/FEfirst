@@ -1,18 +1,29 @@
+.t-title,
+.title h1,
+.content h4,
+.l-footer a,
+footer .bold,
+footer .normal  {
+    color:#000000;
+}
 .t-title {
-    color: black;
+    text-decoration: none;
 }
 .title h1 {
-    color: black;
     font-size: 60px;
     font-weight: 700;
 }
-.title p {
+.title p,
+.l-footer span {
     color: #4A5568;
+}
+.title p {
     font-size: 30px;
     font-weight: 400;
 }
 .content h2,
-.content h3 {
+.content h3,
+.footer a {
     color:#2D3748;
 }
 .content h2 {
@@ -20,7 +31,8 @@
     font-weight: 700;
 }
 .t-text,
-.t-lg-text {
+.t-lg-text,
+.footer span {
     color:#718096;
 }
 .t-text {
@@ -31,4 +43,44 @@
     font-size: 20px;
     font-weight: 700;
 }
-
+.footer span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.content h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.t-lg-text,
+.t-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+.l-footer span {
+  font-size: 14px;
+  font-weight: 400;  
+}
+.l-footer a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+footer .bold {
+    font-size: 16px;
+    font-weight: 700;
+}
+footer .normal {
+    font-size: 16px;
+    font-weight: 400;
+}
