@@ -1,0 +1,34 @@
+.t-title {
+    color: black;
+}
+.title h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+}
+.title p {
+    color: #4A5568;
+    font-size: 30px;
+    font-weight: 400;
+}
+.content h2,
+.content h3 {
+    color:#2D3748;
+}
+.content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.t-text,
+.t-lg-text {
+    color:#718096;
+}
+.t-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+.content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
