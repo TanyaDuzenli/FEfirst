@@ -1,8 +1,5 @@
 .clearfix {
-    /* height: 40px;
-    background-color: red;
-    opacity: 0.5; */
-    clear: both;
+     clear: both;
   }
   
   .container {
@@ -12,7 +9,15 @@
   }
   
   .post {
-    width: 33.3%;
+    width: 30%;
     background-color: red;
-    /* opacity: 0.4; */
-    float: left;
+   float: left;
+   margin: 0 16px;
+   border: 1px solid;
+   box-sizing: border-box;
+   padding: 15px;
+
+
+    
+
+  }
