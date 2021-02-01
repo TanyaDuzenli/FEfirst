@@ -100,8 +100,9 @@ footer .normal {
     margin: 0 auto;
 }
  
-.blok {
+.block {
 /*width: 30%;*/
+background-color:gold;
 float: left;
 /*margin: 0 16px;*/
 /*padding: 15px;*/
@@ -111,11 +112,11 @@ float: left;
     width: 33.3%;
     padding: 0 15px;
     float: left;
+    border: 1px solid;
+    
 }
-
-
 .row {
     margin: 0 -15px;
 }
-    
-  
+
+
