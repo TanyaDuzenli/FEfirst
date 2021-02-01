@@ -9,15 +9,32 @@
   }
   
   .post {
-    width: 30%;
+    /*width: 30%;*/
     background-color: red;
    float: left;
-   margin: 0 16px;
-   border: 1px solid;
-   box-sizing: border-box;
-   padding: 15px;
+   /*margin: 0 16px;*/
+   
+   /*padding: 15px;*/
+}
+
+.col {
+  width: 33.3%;
+  padding: 0 15px;
+ 
+  float: left;
+  }
+
+.row {
+   margin: 0 -15px;
+   }
+
+  * {
+    box-sizing: border-box;
+  }
+    
+    
+    
+  
 
 
     
-
-  }
