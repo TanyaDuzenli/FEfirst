@@ -1,0 +1,41 @@
+.clearfix {
+     clear: both;
+  }
+  
+  .container {
+    width: 965px;
+    margin: 0 auto;
+    background-color: gold;
+  }
+  
+  .post {
+    /*width: 30%;*/
+    background-color: red;
+   float: left;
+   /*margin: 0 16px;*/
+   
+   /*padding: 15px;*/
+}
+
+.col {
+  width: 33.3%;
+  padding: 0 15px;
+  float: left;
+  border: 1px solid;
+  }
+
+.row {
+   margin: 0 -15px;
+   
+   }
+
+  * {
+    box-sizing: border-box;
+  }
+    
+    
+    
+  
+
+
+    
