@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
 .t-title,
 .title h1,
 .content h4,
@@ -86,6 +94,43 @@ footer .normal {
     font-size: 16px;
     font-weight: 400;
 }
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 35px 85px;
+}
+
+.intro {
+    width: 1152px;
+    height: 467px;
+    background-color: #FBFBFB;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title img {
+    width: 70px;
+    height: 67px;
+
+
+}
+.title-img img {
+    width: 459px;
+    height: 311px;
+
+}
+
+.title h1 {
+    width: 354px;
+    height: 146px;
+}
+
 
 
 
