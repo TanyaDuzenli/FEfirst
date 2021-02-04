@@ -3,7 +3,8 @@
 .content h4,
 .l-footer a,
 footer .bold,
-footer .normal  {
+footer .normal,
+.logo span  {
     color:#000000;
 }
 .t-title {
@@ -38,9 +39,9 @@ footer .normal  {
 .t-text {
     font-size: 14px;
     font-weight: 400;
-    
 }
-.content h3 {
+.content h3,
+.logo span {
     font-size: 20px;
     font-weight: 700;
 }
@@ -85,45 +86,3 @@ footer .normal {
     font-size: 16px;
     font-weight: 400;
 }
-
-.clearfix {
-    clear: both;
- }
-
- * {
-    box-sizing: border-box;
-  }
-
-.posts {
-    width: 966px;
-    margin: 0 auto;
-}
- 
-.block {
-/*width: 30%;*/
-float: left;
-/*margin: 0 16px;*/
-/*padding: 15px;*/
-}
-.col {
-    width: 33.3%;
-    padding: 0 15px;
-    float: left;
-    
-}
-.row {
-    margin: 0 -15px;
-}
-
-.block_img img {
-    width: 297px;
-    height: 179px;
-
-}
-
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
-
