@@ -27,7 +27,8 @@ footer .normal,
     color: #4A5568;
 }
 
-.t-text {
+.t-text,
+.title p {
     font-size: 30px;
     font-weight: 400;
 }
@@ -240,6 +241,37 @@ footer .normal {
     margin-left: 15px;
     margin-right: 40px;
 }
-
-
+.last-container {
+    width: 966px;
+    height: 500px;
+    background: #F7FAFC;
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+}
+.last-img {
+    width: 525px;
+    height: 500px;
+}
+.last-content h4 {
+    width: 308px;
+    height: 96px;
+    margin-top: 20;
+    margin-top: 100px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+}
+.t-lg-text {
+    width: 311px;
+    height: 114px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 35px;
+}
+.l-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-right: 65px;
+}
 
