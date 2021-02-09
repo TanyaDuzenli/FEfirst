@@ -26,7 +26,7 @@ footer .normal,
 .l-footer span {
     color: #4A5568;
 }
-.title p {
+.intro-title p {
     font-size: 30px;
     font-weight: 400;
 }
@@ -115,7 +115,7 @@ footer .normal {
     align-items: center;
     
 }
-.title{
+.title {
     margin: 100px 50px;
 }
 
@@ -146,7 +146,7 @@ footer .normal {
 .container {
     display: flex;
     justify-content: space-around;
-    /*align-items: center;*/
+    align-items: center;
     width: 966px;
     height: 243px;
     border: 1px solid #E2E2E2;
@@ -157,9 +157,11 @@ footer .normal {
     
 }
 .first-post {
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+    width: 532px;
+    height: 232px;
 }
 .content {
     margin-left: 20px;
@@ -175,21 +177,19 @@ footer .normal {
     height: 36px;
     margin-left: 50px;
     margin-bottom: 20px;
-    
+    margin-top: 40px;
 }
 .t-text {
     margin-left: 50px;
     margin-bottom: 50px;
 }
-
-
 .footer {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 50px;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 
