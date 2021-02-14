@@ -10,8 +10,8 @@
 .title h1,
 .last-content h4,
 .l-footer a,
-footer .bold,
-footer .normal,
+.maket-footer .bold,
+.maket-footer .normal,
 .logo span  {
     color:#000000;
 }
@@ -94,11 +94,11 @@ footer .normal,
     font-size: 16px;
     font-weight: 700;
 }
-footer .bold {
+.maket-footer .bold {
     font-size: 16px;
     font-weight: 700;
 }
-footer .normal {
+.maket-footer .normal {
     font-size: 16px;
     font-weight: 400;
 }
@@ -109,6 +109,26 @@ footer .normal {
     justify-content: space-between;
     background-color: #FFFFFF;
     padding: 35px 85px;
+}
+
+form img {
+    width: 15px;
+    height: 15px;
+}
+form button {
+    border: none;
+    background-color: #FFFFFF;
+}
+form input {
+    width: 66px;
+    height: 19px;
+    border: none;
+}
+
+nav {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .intro {
@@ -248,6 +268,7 @@ footer .normal {
     display: flex;
     /*align-items: center;
     justify-content: center;*/
+    margin-bottom: 30px;
 }
 .last-img {
     width: 525px;
@@ -274,4 +295,40 @@ footer .normal {
     margin-left: 65px;
     margin-right: 65px;
 }
+.link {
+    width: 122px;
+    height: 37px;
+    background: #6B46C1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 945px;
+    margin-bottom: 40px;
+}
 
+hr {
+    border: 1px solid #E8E8E8;
+    width: 1300px;
+}
+
+.maket-footer {
+    width: 1153px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 93px;
+
+}
+.icons {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    margin-right: 180px;
+}
+
+.icon {
+    width: 20px;
+    height: 19px;
+}
