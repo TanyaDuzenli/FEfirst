@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
   }
+  
   body {
     font-family:'TT Hoves',sans-serif;
   }
@@ -20,9 +21,9 @@
   .col-2,
   .col-3,
   .col-4,
-  .col-5,
+  /*.col-5,*/
   .col-6,
-  .col-7,
+  /*.col-7,*/
   .col-8,
   .col-9,
   .col-10,
@@ -77,24 +78,21 @@
         color:rgba(242, 242, 242, 1);
     }
     .projects-block{
+        width: 1170px;
         margin-top: 30px;
         margin-bottom: 30px;
-        display: flex;
-        
-    }
+      }
     .row-flex{
-        margin: 0 -15px;
+        /*margin: 0 -15px;*/
         display: flex;
-       
-    }
+      }
     .col-7 {
         width: 58,333%;
+        
     }
     .col-5 {
         width: 41,666%;
         background-color: rgba(251, 251, 251, 1);
-        margin-left: 0%;
-        
     }
 
   
