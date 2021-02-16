@@ -3,7 +3,7 @@
   }
   
   body {
-    font-family:'TT Hoves',sans-serif;
+    font-family:'TT Hoves';
   }
   .container {
     width: 1170px;
@@ -65,12 +65,12 @@
         color: #BDBDBD;
         font-weight: 300;
         font-size: 64px;
-        
     }
     .main-title__accent{
         color:rgba(51, 51, 51, 1) ;
         font-weight: 700;
         font-size: 64px;
+       
     }
     .projects__line {
         width: 1170px;
@@ -85,6 +85,7 @@
     .row-flex{
         /*margin: 0 -15px;*/
         display: flex;
+        background-color: #FBFBFB;
       }
     .col-7 {
         width: 58,333%;
@@ -92,7 +93,32 @@
     }
     .col-5 {
         width: 41,666%;
-        background-color: rgba(251, 251, 251, 1);
+        /*background-color: #FBFBFB;*/
+        padding: 30px;
+    }
+    .projects-block__title{
+      width: 440px;
+      height: 100px;
+      font-weight: 300;
+      font-size: 40px;
+      color: rgba(189, 189, 189, 1);
+    }
+    .projects-block__text{
+      width: 400px;
+      height: 120px;
+      font-weight: 300;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 1);
+    }
+    .btn {
+      width: 222px;
+      height: 71px;
+      background-color: rgba(255, 255, 255, 1);
+      border: none;
+      font-weight: 400;
+      font-size: 12px;
+
+
     }
 
   
