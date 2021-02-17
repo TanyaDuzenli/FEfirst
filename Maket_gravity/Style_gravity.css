@@ -1,0 +1,110 @@
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-family: "Fira Sans";
+    font-size: 1.6rem;
+   background-color: rgba(244, 244, 244, 1);
+    }
+  .container {
+    margin: 0 auto;
+    width: 1110px;
+    padding: 0 15px;
+    }
+  
+  .col,
+  .col-1,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col-sm-1,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-lg-1,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8 {
+    padding: 0 15px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  .col-1 {
+    width: 8.333%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.333%;
+  }
+  .col-5 {
+    width: 41.666%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.333%;
+  }
+  .col-8 {
+    width: 66.666%;
+  }
+
+  .header {
+      height: 2.4rem;
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+  }
+  .row {
+      display: flex;
+      justify-content: space-between;
+  }
+  .header__logo{
+      width: 7.4rem;
+      height: 2.3rem;
+  }
+  .btn {
+     border: none;
+     background-color: rgba(244, 244, 244, 1); 
+  }
+  .header__menu{
+      width: 3.4rem;
+      height: 1.4rem;
+}
+  
