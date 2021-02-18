@@ -18,7 +18,7 @@
   }
   .col,
   .col-1,
-  .col-2,
+  .col-2,-
   .col-3,
   .col-4,
   /*.col-5,*/
@@ -29,12 +29,12 @@
   .col-10,
   .col-11,
   .col-12 {
-    padding: 0 15px;
+     padding: 0 15px; 
     } 
   .header {
        height: 102px;
     }
-  .col-8 {
+  .col-8 {-
       width: 66.666%;
       margin-top: 45px;
     }
