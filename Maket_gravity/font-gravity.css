@@ -1,0 +1,10 @@
+.into-text__title {
+font-size: 6rem;
+font-weight: 700;
+color: rgba(21, 21, 21, 1);
+}
+.intro-text__p{
+font-size: 1.8rem;
+font-weight: 400;
+color: rgba(34, 34, 34, 1);
+}
