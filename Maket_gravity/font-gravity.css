@@ -21,3 +21,9 @@ color: rgba(34, 34, 34, 1);
     font-size: 1.8rem;
     font-weight: 400;
 }
+.services-text__p {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #222222;
+    text-decoration-style: Big Title;
+}

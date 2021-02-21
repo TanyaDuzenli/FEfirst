@@ -247,4 +247,34 @@ height: 56.4rem;
   width: 6.5rem;
   height: 6.5rem;
 }
+.services {
+  margin-top: 14.2rem;
+
+}
+.services-header__img {
+  margin-bottom: 4rem;
+  width: 16rem;
+  height: 2rem;
+}
+.col-6 {
+  width: 50%;
+  height: 19.9rem;
+  line-height: 5rem;
+  letter-spacing: -0.1rem;
+}
+.row-services {
+  display: flex;
+  justify-content: space-between;
+}
+.services__nav {
+  height: 19.9rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.services__nav__link {
+  width: 18.9rem;
+  height: 2.8rem;
+  margin-bottom: 2.1rem;
+}
   
