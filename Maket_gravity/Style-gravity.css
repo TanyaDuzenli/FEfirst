@@ -11,21 +11,21 @@ a {
   body {
     font-family: "Fira Sans";
     font-size: 1.6rem;
-   background-color: rgba(244, 244, 244, 1);
+    background-color: rgba(244, 244, 244, 1);
     }
   .container {
     margin: 0 auto;
     width: 1110px;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     }
   
   .col,
   .col-1,
   .col-3,
   .col-4,
-  /*.col-5,*/
+  .col-5,
   .col-6,
-  /*.col-7,*/
+  .col-7,
   .col-8,
   .col-9,
   .col-10,
@@ -89,42 +89,49 @@ a {
     width: 66.666%;
   }
 
-  .header {
-      height: 2.4rem;
-      margin-top: 6rem;
+.header {
+    height: 2.4rem;
+    margin-top: 6rem;
 }
-  .row {
-      margin: 0 -15px;
-      display: flex;
-      justify-content: space-between;
+.row {
+  margin: 0 -15px;
+  display: flex;
+
+}
+  .row-jcsb {
+    justify-content: space-between;
   }
   .header__logo{
-      width: 7.4rem;
-      height: 2.3rem;
+    width: 7.4rem;
+    height: 2.3rem;
   }
   .header__form {
      border: none;
      background-color: rgba(244, 244, 244, 1); 
   }
   .header__menu{
-      width: 3.4rem;
-      height: 1.4rem;
+    width: 7rem;
+    height: 2rem;
 }
-.row-intro{
-    display: flex;
-    margin: 0 -15px;
-}
+
 .intro {
     margin-top: 6rem;
     height: 84rem;
     
 }
 .into-text__title {
-    height: 14rem;
+    /*height: 14rem;*/
     margin: 5rem 9.5rem 3rem 0;
+    line-height: 6rem;
+    letter-spacing: -0.1rem;
+    width: 50rem;
+    font-style: normal;
+    
 }
 .intro-text__p{
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
+    width:50rem;
+    font-style: normal;
 }
 .btn{
     background-color: rgba(55, 38, 242, 1);
@@ -180,7 +187,7 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 37rem;
+    top: 36rem;
 
 }
 .video-block__btn{
@@ -188,5 +195,56 @@ a {
     height: 6.5rem;
     
 }
+/*.row-about {
+  display: flex;
+}*/
+.about {
+margin-top: 13.7rem;
+height: 56.4rem;
+}
+.about-slide__img {
+  width: 44.4rem;
+  height: 56.4rem;
+}
+.about-text {
+  padding-left: 12.5rem;
+  padding-top: 3.7rem;
 
+}
+.about-text__title{
+  width: 54rem;
+  height: 9.7rem;
+  line-height: 5rem;
+  letter-spacing: -0.1rem;
+  font-style: normal;
+  margin-bottom: 3rem;
+}
+.about-text__p1{
+  margin-bottom: 2rem;
+}
+.about-text__footer {
+  width: 28.5rem;
+  height: 6.5rem;
+  margin-top: 6.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about-text__footer__text {
+  padding: 0.6rem 0;
+}
+
+.about-text__footer__text h3 {
+  width: 18.9rem;
+  height: 2.6rem;
+  margin-bottom: 0.6rem;
+  
+}
+.about-text__footer__text span {
+  width: 18.9rem;
+  height: 2.1rem;
+}
+.about-text__footer__img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
   
