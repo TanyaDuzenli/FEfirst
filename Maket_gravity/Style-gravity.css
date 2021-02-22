@@ -88,6 +88,9 @@ a {
   .col-8 {
     width: 66.666%;
   }
+  .col-9 {
+    width: 75%;
+  }
 
 .header {
     height: 2.4rem;
@@ -193,7 +196,6 @@ a {
 .video-block__btn{
     width: 6.5rem;
     height: 6.5rem;
-    
 }
 /*.row-about {
   display: flex;
@@ -271,10 +273,32 @@ height: 56.4rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 1.2rem;
 }
 .services__nav__link {
   width: 18.9rem;
   height: 2.8rem;
   margin-bottom: 2.1rem;
+  cursor: pointer;
 }
+.services-slide {
+  margin-top: 10rem;
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+.services-slide__video {
+  position: relative;
+  
+}
+.posabst {
+  position: absolute;
+  top: 25rem;
+  left: 40rem;
+}
+
+
+
+
   
