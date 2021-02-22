@@ -297,8 +297,23 @@ height: 56.4rem;
   top: 25rem;
   left: 40rem;
 }
-
-
-
-
+.slider-controls {
+  margin-top: 5rem;
   
+}
+.slider-controls__item {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(196, 196, 196, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.row-slider-controls {
+  display: flex;
+}
+.slider-controls__left {
+  margin-right: 2.5rem;
+}
